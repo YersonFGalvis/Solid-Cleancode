@@ -27,7 +27,7 @@
         private masterEmail: string = 'Yersongalvis03@gmail.com';
 
         senEmails(emailList: string[], template: 'to-clients' | 'to-admins') {
-            console.log('Enviando correo a los clientes', template);
+            console.log('Enviando correo a los clientes:'+emailList, template);
         }
     }
     
